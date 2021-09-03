@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".HadisActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/hd2"/>
+
+        <!-- Tombol -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/play"
+                        android:id="@+id/play2"
+                        android:onClick="play2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pause"
+                        android:id="@+id/pause2"
+                        android:onClick="pause2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/stop"
+                        android:id="@+id/stop1"
+                        android:onClick="stop1"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/next"
+                        android:id="@+id/next_act2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <!---->
+        <!--Hadis-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hadis2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <!---->
+        <!--Terjemah-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="9dp"
+                        android:text="Dari Umar radhiallahuanhu juga dia berkata : Ketika kami duduk-duduk disisi Rasulullah Shallallahu’alaihi wasallam suatu hari tiba-tiba datanglah seorang laki-laki yang mengenakan baju yang sangat putih dan berambut sangat hitam, tidak tampak padanya bekas-bekas perjalanan jauh dan tidak ada seorangpun diantara kami yang mengenalnya. Hingga kemudian dia duduk dihadapan Nabi lalu menempelkan kedua lututnya kepada kepada lututnya (Rasulullah Shallallahu’alaihi wasallam) seraya berkata: “ Ya Muhammad, beritahukan aku tentang Islam ?”, maka bersabdalah Rasulullah Shallallahu’alaihi wasallam : “ Islam adalah engkau bersaksi bahwa tidak ada Ilah (Tuhan yang disembah) selain Allah, dan bahwa Nabi Muhammad adalah utusan Allah, engkau mendirikan shalat, menunaikan zakat, puasa Ramadhan dan pergi haji jika mampu “, kemudian dia berkata: “ anda benar “. Kami semua heran, dia yang bertanya dia pula yang  membenarkan. Kemudian dia bertanya lagi: “ Beritahukan aku tentang Iman “. Lalu beliau bersabda: “ Engkau beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya dan hari akhir dan engkau beriman kepada takdir yang baik maupun yang buruk “, kemudian dia berkata: “ anda benar“.  Kemudian dia berkata lagi: “ Beritahukan aku tentang ihsan “. Lalu beliau bersabda: “ Ihsan adalah engkau beribadah kepada Allah seakan-akan engkau melihatnya, jika engkau tidak melihatnya maka Dia melihat engkau” . Kemudian dia berkata: “ Beritahukan aku tentang hari kiamat (kapan kejadiannya)”. Beliau bersabda: “ Yang ditanya tidak lebih tahu dari yang bertanya “. Dia berkata:  “ Beritahukan aku tentang tanda-tandanya “, beliau bersabda:  “ Jika seorang hamba melahirkan tuannya dan jika engkau melihat seorang bertelanjang kaki dan dada, miskin dan penggembala domba, (kemudian)  berlomba-lomba meninggikan bangunannya “, kemudian orang itu berlalu dan aku berdiam sebentar. Kemudian beliau (Rasulullah) bertanya: “ Tahukah engkau siapa yang bertanya ?”. aku berkata: “ Allah dan Rasul-Nya lebih mengetahui “. Beliau bersabda: “ Dia adalah Jibril yang datang kepada kalian (bermaksud) mengajarkan agama kalian “.
+                                        (Riwayat Mullim)"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <!---->
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.haditsarbain">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".DaftarUserActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".HadisActivity"></activity>
+        <activity android:name=".TajwidActivity"></activity>
+        <activity android:name=".InfoActivity"></activity>
+        <activity android:name=".HadisActivity2"></activity>
+        <activity android:name=".HadisActivity3"></activity>
+        <activity android:name=".HadisActivity4"></activity>
+        <activity android:name=".HadisActivity5"></activity>
+        <activity android:name=".HadisActivity6"></activity>
+        <activity android:name=".HadisActivity7"></activity>
+        <activity android:name=".HadisActivity8"></activity>
+        <activity android:name=".HadisActivity9"></activity>
+        <activity android:name=".HadisActivity10"></activity>
+        <activity android:name=".splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

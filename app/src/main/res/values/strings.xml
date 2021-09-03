@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nyantri.ID</string>
+    <string name="namakyai"><u>Nama Pengasuh (Kyai)</u></string>
+    <string name="alamat"><u>Alamat</u></string>
+    <string name="maps"><u>Google Maps</u></string>
+    <string name="notelp"><u>No Telp</u></string>
+</resources>
